@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="018d-0d25-b3d2-1828" name="SimpleForce-Faction" gameSystemId="sys-801e-a45d-72c8-7ed5" gameSystemRevision="1" revision="1" authorName="John Kemp" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorUrl="https://github.com/Kemp-J/NRDataExamples">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="LightUnit_A" hidden="false" id="807f-dac7-2b7e-4cb5">
+      <categoryLinks>
+        <categoryLink targetId="cf69-0449-b621-6882" id="f967-c574-0b20-5d38" primary="true" name="Light Units"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="LightUnit_B" hidden="false" id="319d-8c5c-6bf9-7c57">
+      <categoryLinks>
+        <categoryLink targetId="cf69-0449-b621-6882" id="dc7e-6d11-461b-8f3e" primary="true" name="Light Units"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="HeavyUnit_A" hidden="false" id="6764-2c43-ae95-16cb">
+      <categoryLinks>
+        <categoryLink targetId="11e0-21c0-8ff6-089a" id="ab13-ef94-b6f3-f5ad" primary="true" name="Heavy Units"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="LightUnit_A" hidden="false" id="36d4-026f-f5b0-0967" type="selectionEntry" targetId="807f-dac7-2b7e-4cb5"/>
+    <entryLink import="true" name="LightUnit_B" hidden="false" id="bb83-b1c2-d7bb-d984" type="selectionEntry" targetId="319d-8c5c-6bf9-7c57"/>
+    <entryLink import="true" name="HeavyUnit_A" hidden="false" id="6b93-c9f3-e08f-8581" type="selectionEntry" targetId="6764-2c43-ae95-16cb"/>
+  </entryLinks>
+</catalogue>
